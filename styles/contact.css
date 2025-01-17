@@ -1,0 +1,21 @@
+div.address {
+    float: left;
+    padding-left: 100px;
+    justify-content: center;
+    justify-items: left;
+    color: #6e1120;
+    font-size: 30px;
+}
+
+.address {
+    color: black;
+    font-size: 25px;
+}
+
+div.maps {
+    float: right;
+    padding: 100px;
+    padding-top: 0px;
+    justify-content: center;
+    justify-items: right;
+}

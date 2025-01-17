@@ -1,0 +1,53 @@
+.menu {
+
+
+    width: max-content;
+    height: max-content;
+    justify-self: center;
+    justify-content: center;
+}
+
+.menu-container {
+    background-image: url("../images/dosa.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    width: 100%;
+}
+
+ol>li {
+    list-style-type: none;
+}
+
+.menu-title {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    color: #c3b49c;
+    background-color: #6e1120;
+    padding: 10px;
+    border-radius: 5px;
+    width: max-content;
+
+}
+
+.menu-sub-titles {
+    color: #f4f1ec;
+    text-align: left;
+    text-indent: 2px;
+    list-style-type: none;
+    font-weight: bolder;
+    font-size: 25px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+
+.menu-items {
+    text-align: justify;
+    justify-content: center;
+    font-weight: lighter;
+    line-height: 30px;
+    font-size: 20px;
+}
