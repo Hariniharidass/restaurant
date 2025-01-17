@@ -7,8 +7,9 @@ html {
 }
 
 #navigation-bar {
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
     overflow: hidden;
     font-size: 25px;
     background-color: #a37e45;
