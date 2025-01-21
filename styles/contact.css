@@ -19,3 +19,28 @@ div.maps {
     justify-content: center;
     justify-items: right;
 }
+
+.contact {
+    position: relative;
+    height: max-content;
+    width: 100%;
+    overflow: hidden;
+}
+
+#videobcg {
+    position: absolute;
+    margin-top: 30px;
+    top: 0;
+    left: 0;
+    min-width: max-content;
+    min-height: max-content;
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    z-index: -100;
+}
+
+footer>p {
+    text-align: center;
+}

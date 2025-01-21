@@ -13,29 +13,31 @@
 </head>
 
 <body>
-    <!--Navigation bar-->
-    <div id="navigation-bar">
-        <div class="nav-left">
-            <a href="index.html">Home</a>
-            <a href="/pages/menu.html" target="_parent">Menu</a>
-            <a href="/pages/about.html" target="_parent">About</a>
-            <a href="/pages/contact.html" target="_parent">Contact</a>
-        </div>
-        <div class="nav-right">
-            <a><i class="fa fa-shopping-cart"></i></a>
-            <a><i class="fa fa-user-circle-o"></i></a>
-        </div>
-    </div>
+    <header>
+        <!--Navigation bar-->
+        <nav id="navigation-bar">
+            <div class="nav-left">
+                <a href="index.html">Home</a>
+                <a href="#menu" target="_parent">Menu</a>
+                <a href="#about" target="_parent">About</a>
+                <a href="#contact" target="_parent">Contact</a>
+            </div>
+            <div class="nav-right">
+                <a><i class="fa fa-shopping-cart"></i></a>
+                <a><i class="fa fa-user-circle-o"></i></a>
+            </div>
+        </nav>
+    </header>
     <!--Landing page image-->
-    <div class="hero-image">
+    <section class="hero-image">
         <div class="hero-text">
             <h1>Welcome to Spicy Treats</h1>
             <p>Relish authentic South Indian food</p>
         </div>
-    </div>
-    <div>
+    </section>
+    <main>
         <!--Menu page-->
-        <div>
+        <section id="menu">
             <h3 class="page-heading"><i class="fa fa-star" aria-hidden="true"></i> Spicy Treats Menu </h3>
             <ul class="menu-title">A La Carte Menu</ul>
             <div class="menu-container menu">
@@ -62,10 +64,10 @@
                     </ol>
                 </li>
             </div>
-        </div>
+        </section>
 
         <!--About us page-->
-        <div class="about">
+        <section class="about" id="about">
             <h3 class="page-heading"><i class="fa fa-star" aria-hidden="true"></i> About Us </h3>
             <p>Embark on a culinary journey through the vibrant flavors of South India.
                 Our restaurant invites you to experience the rich tapestry of South Indian cuisine, where tradition
@@ -76,32 +78,37 @@
                 family,
                 our
                 restaurant is the perfect destination to immerse yourself in the vibrant flavors of South India.</p>
-        </div>
-        <div>
+
             <h3>Food Gallery</h3>
-        </div>
-        <div class="image-gallery">
-            <div>
-                <img src="/images/badam-halwa.webp" alt=" Badam halwa" width="600" height="400">
+
+            <div class="image-gallery">
+                <div>
+                    <img src="/images/badam-halwa.webp" alt=" Badam halwa" title="dessert" width="600" height="400">
+                </div>
+                <div>
+                    <img src="/images/ginger_lemonade.webp" alt=" Ginger Lemonade" title="juice" width="600"
+                        height="400">
+                </div>
+                <div>
+                    <img src="/images/paneer-roll.webp" alt=" Paneer roll" title="main course" width="600" height="400">
+                </div>
+                <div>
+                    <img src="/images/mango-lassi.webp" alt=" Mango Lassi" title="juice" width="600" height="400">
+                </div>
+                <div>
+                    <img src="/images/samosa.webp" alt=" Samosa" title="starters" width="600" height="400">
+                </div>
+                <div>
+                    <img src="/images/poori.webp" alt=" Poori" title="main course" width="600" height="400">
+                </div>
             </div>
-            <div>
-                <img src="/images/ginger_lemonade.webp" alt=" Ginger Lemonade" width="600" height="400">
-            </div>
-            <div>
-                <img src="/images/paneer-roll.webp" alt=" Paneer roll" width="600" height="400">
-            </div>
-            <div>
-                <img src="/images/mango-lassi.webp" alt=" Mango Lassi" width="600" height="400">
-            </div>
-            <div>
-                <img src="/images/samosa.webp" alt=" Samosa" width="600" height="400">
-            </div>
-            <div>
-                <img src="/images/poori.webp" alt=" Poori" width="600" height="400">
-            </div>
-        </div>
+        </section>
         <!--Contact Us page-->
-        <div class="contact">
+        <section class="contact" id="contact">
+            <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+                <source src="/videos/video.mp4" type="video/mp4">
+                Sorry, your browser does not support HTML5 video.
+            </video>
             <h3 class="page-heading"><i class="fa fa-star" aria-hidden="true"></i> Contact Us</h3>
             <div>
                 <div class="address">
@@ -129,8 +136,11 @@
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </div>
-    </div>
+        </section>
+        <footer>
+            <p>Created by Harini Natarajan</p>
+        </footer>
+    </main>
 </body>
 
 </html>
