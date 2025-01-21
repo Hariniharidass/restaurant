@@ -1,3 +1,8 @@
+/*
+******** menu.css *********
+This file contains css styling for the menu section with order list and text shadows and also for background image for the menu section.
+*/
+
 .menu {
     width: max-content;
     height: max-content;
@@ -31,21 +36,22 @@ ol>li {
 }
 
 .menu-sub-titles {
-    color: #f4f1ec;
-    text-align: left;
-    text-indent: 2px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+    text-indent: 20px;
     list-style-type: none;
     font-weight: bolder;
     font-size: 25px;
     font-style: oblique;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .menu-items {
-    text-align: justify;
+    text-align: center;
     justify-content: center;
-    font-weight: lighter;
+    font-weight: bolder;
     line-height: 30px;
     font-size: 20px;
 }

@@ -8,11 +8,11 @@ This is a single page website for a restaurant with
 - About page
 - Contact page
 
-Its created with HTML and CSS. Its has an index.html file which has all the pages
+Its created with semantic HTML tags and CSS. Its has an index.html file which has all the pages
 combined as single file. The sytles folder has CSS for each pages namely menu,
 about and contact for easy scalability when modularising each page with
 Javascript if needed. The images folder contains all the images needed for the
-website.
+website. The videos folder contains the video reqiured for the website.
 
 ### Landing page
 * It contains a hero image with a short description
@@ -26,3 +26,4 @@ website.
 
 ### Contact page
 * It has address and phone contact information along with map location
+* It has a video as background

@@ -1,3 +1,8 @@
+/*
+******** contact.css *********
+This file contains css styling for the contact page with address and map on either sides along with a background video for this section..
+*/
+
 div.address {
     float: left;
     padding-left: 100px;

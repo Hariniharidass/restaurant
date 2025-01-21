@@ -1,3 +1,8 @@
+/*
+******** about.css *********
+This file contains css styling for the about page and also for image gallery.
+*/
+
 div.image-gallery {
     display: grid;
     grid-template-columns: auto auto;

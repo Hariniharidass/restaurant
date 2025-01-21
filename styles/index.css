@@ -1,3 +1,8 @@
+/*
+******** index.css *********
+This file contains general css styling for the website and also for hero image and navigation bar.
+*/
+
 body,
 html {
     height: 100%;
@@ -65,11 +70,6 @@ html {
 .hero-text>p {
     font-size: 25px;
     text-align: center;
-}
-
-.menu {
-    margin: auto;
-    padding-top: 100px;
 }
 
 .page-heading {
